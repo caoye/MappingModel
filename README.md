@@ -34,5 +34,5 @@ NSDictionary * dict ＝ [model modelToDict];
 #### Author
 
 
-“caoye”, “caoye@gomeplus.com”
+“caoye”, “1595576349@qq.com”
 
