@@ -69,29 +69,29 @@ objc_property_t *ps = class_copyPropertyList([objeClass class], &propertyCount);
 根据属性的描述信息，我们可以得到属性的类型(T后面的第一个字符)，比如`@`代表的是对象类型, 可参照[查看全部](https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtTypeEncodings.html)
 如下是对应关系
 
-* `v`->==Void==
-* `B`->==Bool==
-* `c`->==Int8==
-* `C`->==UInt8==
-* `s`->==Int16==
-* `S`->==UInt16==
-* `i`->==Int32==
-* `I`->==UInt32==
-* `l`->==Int32==
-* `L`->==UInt32==
-* `q`->==Int64==
-* `Q`->==UInt64==
-* `f`->==Float==
-* `d`->==Double==
-* `D`->==Long==
-* `#`->==Class==
-* `:`->==SEL==
-* `*`->==CFString==
-* `^`->==Pointer==
-* `[`->==CFArray==
-* `(`->==Union==
-* `{`->==Struct==
-* `@`->==对象类型（Object）==
+* `v`->`Void`
+* `B`->`Bool`
+* `c`->`Int8`
+* `C`->`UInt8`
+* `s`->`Int16`
+* `S`->`UInt16`
+* `i`->`Int32`
+* `I`->`UInt32`
+* `l`->`Int32`
+* `L`->`UInt32`
+* `q`->`Int64`
+* `Q`->`UInt64`
+* `f`->`Float`
+* `d`->`Double`
+* `D`->`Long`
+* `#`->`Class`
+* `:`->`SEL`
+* `*`->`CFString`
+* `^`->`Pointer`
+* `[`->`CFArray`
+* `(`->`Union`
+* `{`->`Struct`
+* `@`->`对象类型（Object）`
 
 其中`对象类型（Object`中又包含了很多类型`NSString`、`NSMutableString`、`NSDictionary`、`NSMutableDictionary`、`NSArray`、`NSMutableArray`、`NSSet`、`NSMutableSet`、`NSData`、`NSMutableData`、`NSDate`、`NSNumber`、`NSDecimalNumber`、`NSURL`、`NSValue`、`NSProtocol`
 
