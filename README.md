@@ -5,18 +5,18 @@
 
 将NSDictionary转model：
 
-```
+```objectivec
 PersonModel * model = [PersonModel MXmodelWithDictionary:dict];
 ```
 将model转NSDictionary：
 
-```
+```objectivec
 NSDictionary * dict ＝ [model modelToDict];
 ```
 
 转化NSDictionary转的数组类型：
 
-```
+```objectivec
 + (NSDictionary *)contentClass {
     return @{@"theArray":[ChildModel class],@"theArr":[SubModel class]};
 }
@@ -25,7 +25,7 @@ NSDictionary * dict ＝ [model modelToDict];
 
 特殊字段的映射：
 
-```
+```objectivec
 + (NSDictionary *)changeDictKey {
     return @{@"id":@"nameId"};
 }
