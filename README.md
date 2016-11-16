@@ -32,7 +32,9 @@ NSDictionary * dict ＝ [model modelToDict];
 ```
 
 model自动映射的大体流程为
-![](./流程图.png "流程图")
+
+<img src="./流程图.png" width = "350" height = "250" alt="流程图" />
+
 ## 如何进行赋值？ 
 
 * 先要获取当前model的所有属性
